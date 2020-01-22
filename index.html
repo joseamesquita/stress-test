@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" ></script>
+    <title>stress</title>
+  </head>
+  <body class="container">
+    <div>
+      <div class="jumbotron">
+        <h2>A Stress Test</h2>
+      </div>
+      <form id="stress-test">
+        <div class="form-group">
+        <div>
+          <p>Warning signs of being negatively affected by stress:</p>
+          <input type="checkbox" name="warning" value="Loss of sleep"> Loss of sleep<br>
+          <input type="checkbox" name="warning" value="Feeling overwhelmed"> Feeling overwhelmed<br>
+          <input type="checkbox" name="warning" value="Loss of apetite"> Loss of apetite<br>
+          <input type="checkbox" name="warning" value="Anxiety"> Anxiety<br>
+        </div> <br>
+        <div>
+          <p>Health symptoms linked to high blood pressure:</p>
+          <input type="checkbox" name="symptoms" value="blood spots in the eyes"> Blood spots in the eyes<br>
+          <input type="checkbox" name="symptoms" value="Facial flushing"> Facial flushing<br>
+          <input type="checkbox" name="symptoms" value="Dizziness"> Dizziness<br>
+          <input type="checkbox" name="symptoms" value="Severe headache"> Severe headache<br>
+        </div> <br>
+        <div>
+          <p>Coping methods to deal with stress:</p>
+          <input type="checkbox" name="coping" value="Exercise regularly"> Exercise regularly<br>
+          <input type="checkbox" name="coping" value="Get enough sleep"> Get enough sleep<br>
+          <input type="checkbox" name="coping" value="Seek treatment"> Seek treatment<br>
+          <input type="checkbox" name="coping" value="Riding a bike"> Riding a bike<br>
+        </div>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+    </div>
+    <div class ="response">
+        <span id="warningresponse"><p><b>Here are your warnings of high stress:</b></p></span>
+
+        <span id="symptomsresponse"><p><b>Here are your symptoms of high stress:</b></p></span>
+
+        <span id="copingresponse"><p><b>Here is how you cope with high stress:</b></p></span>
+
+        <span id="response"><p><b>Here are useful resources:</b></p></span>
+        <ul>
+          <li> <a href="https://www.helpguide.org/articles/stress/stress-management.htm">click here</a></li>
+        </ul>
+    </div>
+
+  </body>
+</html>
